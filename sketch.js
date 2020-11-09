@@ -1,26 +1,13 @@
+// Koch snowflake
+// M. A. Koch 2020
+//Instagram: @martinkochdesign
+
 var segments = [];
 var len = 500;
 var gen = 0;
 
 function setup() {
-    createCanvas(800,800);
-//    len = 500/600*height;
-//    angleMode(DEGREES);
-//    stroke(255,255,255);
-//    strokeWeight(3);
-//    var a = createVector(-len/2,0);
-//    var b = createVector(len/2,0);
-//    var s1 = new seg(a,b);
-//    segments.push(s1);
-//    a = createVector(len/2,0);
-//    b = createVector(0,len * 0.866);
-//    var s2 = new seg(a,b);
-//    segments.push(s2);
-//    a = createVector(0,len * 0.866);
-//    b = createVector(-len/2,0);
-//    var s3 = new seg(a,b); 
-//    segments.push(s3);
-    
+    createCanvas(800,800);   
 }
 
 function draw() { 
